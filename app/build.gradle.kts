@@ -8,11 +8,11 @@ plugins {
 apply(from = "../ktlint.gradle.kts")
 
 android {
-    compileSdk = 31
+    compileSdk = 33
     defaultConfig {
         applicationId = "dev.marcosfarias.pokedex"
         minSdk = 23
-        targetSdk = 31
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -80,10 +80,10 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
     androidTestImplementation("com.android.support.test.espresso:espresso-contrib:3.0.2")
     androidTestImplementation("androidx.navigation:navigation-testing:2.5.0")
-    debugImplementation("androidx.fragment:fragment-testing:1.4.1")
+    debugImplementation("androidx.fragment:fragment-testing:1.6.0-alpha07")
     testImplementation("androidx.arch.core:core-testing:2.1.0")
     androidTestImplementation("io.mockk:mockk-android:1.12.4")
-    androidTestImplementation("io.mockk:mockk-agent-jvm:1.12.4")
     testImplementation("io.mockk:mockk:1.12.4")
-    testImplementation("io.mockk:mockk-agent-jvm:1.12.0")
+    androidTestImplementation("io.github.kakaocup:kakao:3.2.2")
+    androidTestImplementation("com.kaspersky.android-components:kaspresso:1.5.1")
 }

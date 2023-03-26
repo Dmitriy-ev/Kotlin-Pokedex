@@ -74,6 +74,14 @@ dependencies {
     implementation("io.insert-koin:koin-android:3.2.0")
     implementation("io.insert-koin:koin-core:3.2.0")
 
+    //allure
+    androidTestImplementation("io.qameta.allure:allure-kotlin-model:2.2.6")
+    androidTestImplementation("io.qameta.allure:allure-kotlin-commons:2.2.6")
+    androidTestImplementation("io.qameta.allure:allure-kotlin-junit4:2.2.6")
+    androidTestImplementation("io.qameta.allure:allure-kotlin-android:2.2.7")
+    //Android Test Orchestrator
+    androidTestUtil("androidx.test:orchestrator:1.3.0")
+
     // Test
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
@@ -86,4 +94,10 @@ dependencies {
     testImplementation("io.mockk:mockk:1.12.4")
     androidTestImplementation("io.github.kakaocup:kakao:3.2.2")
     androidTestImplementation("com.kaspersky.android-components:kaspresso:1.5.1")
+    androidTestImplementation("androidx.test:core:1.3.0")
+    androidTestImplementation("androidx.test:runner:1.3.0")
+    androidTestImplementation("androidx.test:rules:1.3.0")
+    androidTestImplementation ("org.jetbrains.kotlin:kotlin-stdlib:1.2.51")
+    androidTestImplementation ("junit:junit:4.12")
+    androidTestImplementation ("androidx.test.uiautomator:uiautomator:2.2.0")
 }

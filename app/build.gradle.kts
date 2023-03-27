@@ -75,21 +75,21 @@ dependencies {
     implementation("io.insert-koin:koin-core:3.2.0")
 
     //allure
-    androidTestImplementation("io.qameta.allure:allure-kotlin-model:2.2.6")
-    androidTestImplementation("io.qameta.allure:allure-kotlin-commons:2.2.6")
-    androidTestImplementation("io.qameta.allure:allure-kotlin-junit4:2.2.6")
+    androidTestImplementation("io.qameta.allure:allure-kotlin-model:2.2.7")
+    androidTestImplementation("io.qameta.allure:allure-kotlin-commons:2.2.7")
+    androidTestImplementation("io.qameta.allure:allure-kotlin-junit4:2.2.7")
     androidTestImplementation("io.qameta.allure:allure-kotlin-android:2.2.7")
     //Android Test Orchestrator
     androidTestUtil("androidx.test:orchestrator:1.3.0")
 
     // Test
     testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.3")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     androidTestImplementation("com.android.support.test.espresso:espresso-contrib:3.0.2")
-    androidTestImplementation("androidx.navigation:navigation-testing:2.5.0")
+    androidTestImplementation("androidx.navigation:navigation-testing:2.5.3")
     debugImplementation("androidx.fragment:fragment-testing:1.6.0-alpha07")
-    testImplementation("androidx.arch.core:core-testing:2.1.0")
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
     androidTestImplementation("io.mockk:mockk-android:1.12.4")
     testImplementation("io.mockk:mockk:1.12.4")
     androidTestImplementation("io.github.kakaocup:kakao:3.2.2")
@@ -98,6 +98,6 @@ dependencies {
     androidTestImplementation("androidx.test:runner:1.3.0")
     androidTestImplementation("androidx.test:rules:1.3.0")
     androidTestImplementation ("org.jetbrains.kotlin:kotlin-stdlib:1.2.51")
-    androidTestImplementation ("junit:junit:4.12")
+    androidTestImplementation ("junit:junit:4.13.2")
     androidTestImplementation ("androidx.test.uiautomator:uiautomator:2.2.0")
 }

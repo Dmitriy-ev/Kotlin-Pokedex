@@ -1,11 +1,15 @@
 package dev.marcosfarias.otus.tests
 
 import androidx.test.ext.junit.rules.ActivityScenarioRule
+import androidx.test.ext.junit.runners.AndroidJUnit4
 import dev.marcosfarias.otus.BaseTest
 import dev.marcosfarias.otus.screen.MainScreen
 import dev.marcosfarias.pokedex.MainActivity
 import org.junit.Rule
 import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
 class MainTest : BaseTest() {
 
     @get:Rule

@@ -73,6 +73,9 @@ dependencies {
     // Koin
     implementation("io.insert-koin:koin-android:3.2.0")
     implementation("io.insert-koin:koin-core:3.2.0")
+    testImplementation("io.insert-koin:koin-test:3.4.0")
+    // Needed JUnit version
+    testImplementation("io.insert-koin:koin-test-junit4:3.4.0")
 
     //allure
     androidTestImplementation("io.qameta.allure:allure-kotlin-model:2.2.7")
